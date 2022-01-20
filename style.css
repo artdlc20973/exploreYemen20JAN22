@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1642425149525-6db4d5305bd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80')no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin: 1em;
+  color: #ffe4c4;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li a {
+  display: flex;
+  align-items: center;
+  margin: 1em;
+  text-decoration: none;
+  color: #ffe4c4;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 300px auto;
+}
+
+h1 {
+  margin-bottom: .4em;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  color: #ffe4c4d5;
+}
+
+p {
+  margin: 1.4em;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+button {
+  background: #ffe4c455;
+  color: #fff;
+  font-size: 1.2em;
+  border: none;
+  padding: 12px 45px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  border-radius: 25px;
+  
+}
